@@ -46,3 +46,6 @@ async def aa(token: OAuth2PasswordBearer(tokenUrl="token") = Depends()):
     print(token)
     return "google"
 ```
+
+![image](https://user-images.githubusercontent.com/24217568/141227568-95f430f5-3dd9-435e-b474-e16cc343cf1c.png)
+
