@@ -1,0 +1,152 @@
+repo_name: Rhyanz46/fastapi-jwt-authentication
+report_id: bf48e2de413a3c9180a01b07e798d0fa
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-17T03:00:50+00:00'
+requested_by: Rhyanz46
+provider: github
+branch: main
+detected_tools_count: 7
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Rhyanz46/fastapi-jwt-authentication
+  detection_source: Repo Metadata
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.61.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/Rhyanz46/fastapi-jwt-authentication/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rhyanz46
+  last_updated_on: 2020-10-22 07:39:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Rhyanz46/fastapi-jwt-authentication
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Rhyanz46/fastapi-jwt-authentication/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rhyanz46
+  last_updated_on: 2020-10-22 07:39:42.000000000 Z
+- name: starlette
+  description: The little ASGI library that shines
+  package_url: https://pypi.org/project/starlette
+  version: 0.13.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20295/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/Rhyanz46/fastapi-jwt-authentication/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rhyanz46
+  last_updated_on: 2020-10-22 07:39:42.000000000 Z
+  vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette vulnerable to directory traversal'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-qj8w-rv5x-2v9h
+    detected_date: Jun 6
+    severity: high
+    first_patched: 0.27.0
+  - name: Starlette allows an unauthenticated and remote attacker to specify any number
+      of form fields or files
+    cve_id: CVE-2023-30798
+    cve_url: https://github.com/advisories/GHSA-3qj8-93xh-pwh2
+    detected_date: Apr 22
+    severity: high
+    first_patched: 0.25.0
+  - name: MultipartParser denial of service with too many fields or files
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-74m5-2c7w-9w3x
+    detected_date: Feb 15
+    severity: moderate
+    first_patched: 0.25.0
+  - name: Starlette has Path Traversal vulnerability in StaticFiles
+    cve_id: CVE-2023-29159
+    cve_url: https://github.com/advisories/GHSA-v5gw-mw7f-84px
+    detected_date: May 17
+    severity: low
+    first_patched: 0.27.0
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/Rhyanz46/fastapi-jwt-authentication/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rhyanz46
+  last_updated_on: 2020-10-22 07:39:42.000000000 Z
+  vulnerabilities:
+  - name: Pydantic regular expression denial of service
+    cve_id: CVE-2024-3772
+    cve_url: https://github.com/advisories/GHSA-mr82-8j83-vxmv
+    detected_date: Apr 25
+    severity: moderate
+    first_patched: 1.10.13
+  - name: Use of "infinity" as an input to datetime and date fields causes infinite
+      loop in pydantic
+    cve_id: CVE-2021-29510
+    cve_url: https://github.com/advisories/GHSA-5jqp-qgf6-3pvh
+    detected_date: Aug 22
+    severity: low
+    first_patched: 1.6.2
+- name: httptools
+  description: A collection of framework independent HTTP protocol utils
+  package_url: https://pypi.org/project/httptools
+  version: 0.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Rhyanz46/fastapi-jwt-authentication/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rhyanz46
+  last_updated_on: 2020-10-22 07:39:42.000000000 Z
